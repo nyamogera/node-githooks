@@ -38,9 +38,15 @@ process.exit(0);
         fs.writeFileSync(fileName, data);
         chmod(fileName, 755);
 
-        fs.writeFileSync(fileScripts, dataScripts);
-        chmod(fileScripts, 755);
-        console.log("writeFile : " + fileScripts);
+        try {
+            fs.accessSync("filename.ext", fs.R_OK | fs.W_OK)
+            console.log("file exits : " + fileScripts)
+        } catch (e) {
+
+            fs.writeFileSync(fileScripts, dataScripts);
+            chmod(fileScripts, 755);
+            console.log("writeFile : " + fileScripts);
+        }
     };
 
     mkdirp('.githooks', function (err) {
