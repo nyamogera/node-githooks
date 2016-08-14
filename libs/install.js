@@ -39,7 +39,7 @@ process.exit(0);
         chmod(fileName, 755);
 
         try {
-            fs.accessSync("filename.ext", fs.R_OK | fs.W_OK)
+            fs.accessSync(fileScripts, fs.R_OK | fs.W_OK)
             console.log("file exits : " + fileScripts)
         } catch (e) {
 
