@@ -1,0 +1,28 @@
+{
+  "name": "node-githooks",
+  "version": "1.0.0",
+  "description": "githooks",
+  "main": "index.js",
+  "bin": {
+    "node-githooks": "install.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install:test": "node libs/install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nyamogera/node-githooks.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nyamogera/node-githooks/issues"
+  },
+  "homepage": "https://github.com/nyamogera/node-githooks#readme",
+  "devDependencies": {
+    "chmod": "^0.2.1",
+    "mkdirp": "^0.5.1",
+    "shelljs": "^0.7.3"
+  }
+}
