@@ -29,8 +29,8 @@ if [ -e ${hooksScriptPath} ]; then
   node ${hooksScriptPath}
 fi`;
 
-        const dataScripts = `console.log("piyopiyo");
-process.exit(1);
+        const dataScripts = `console.log("${hookName} success!");
+process.exit(0);
     `;
 
         const fileScripts = path.normalize(`${pwd}/.githooks/${hookName}.js`);
