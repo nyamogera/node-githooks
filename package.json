@@ -8,7 +8,8 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "install:test": "node bin/install"
+    "install:test": "node bin/install",
+    "prepost:test" : "node .githooks/pre-push"
   },
   "repository": {
     "type": "git",
