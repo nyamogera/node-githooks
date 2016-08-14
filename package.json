@@ -4,10 +4,11 @@
   "description": "githooks",
   "main": "index.js",
   "bin": {
+    "node-githooks" : "bin/install.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "install:test": "node libs/install"
+    "install:test": "node bin/install"
   },
   "repository": {
     "type": "git",
