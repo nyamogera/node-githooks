@@ -19,7 +19,7 @@
     "url": "https://github.com/nyamogera/node-githooks/issues"
   },
   "homepage": "https://github.com/nyamogera/node-githooks#readme",
-  "devDependencies": {
+  "dependencies": {
     "chmod": "^0.2.1",
     "mkdirp": "^0.5.1",
     "shelljs": "^0.7.3"
