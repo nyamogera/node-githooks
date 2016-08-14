@@ -1,3 +1,4 @@
 link_githooks
 .idea
 node_modules
+.githooks

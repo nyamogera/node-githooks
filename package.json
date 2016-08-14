@@ -4,7 +4,6 @@
   "description": "githooks",
   "main": "index.js",
   "bin": {
-    "node-githooks": "install.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
